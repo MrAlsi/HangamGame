@@ -69,9 +69,9 @@ def gioca(parolaSegreta):
 # Stampa le regole del gioco e aspetta un'azione dell'utente per andare avanti
 def regole():
     os.system('cls')
-    print('''Regole: Devi indovinare la parola nei tentativi richiesti dalla modalità\n che hai selezionato. 
-         Ogni turno devi inserire una lettera e ti verrà detto se quest'ultima\n è presente o 
-         meno all'interno della parola che devi indovinare.\n Se finisci tutte le vite prima di completare la parola avrai perso.''')
+    print('''Regole: Devi indovinare la parola nei tentativi richiesti dalla modalità che hai selezionato. 
+         Ogni turno devi inserire una lettera e ti verrà detto se quest'ultima è presente o 
+         meno all'interno della parola che devi indovinare. Se finisci tutte le vite prima di completare la parola avrai perso.''')
     continua = input("Premi un tasto qualsiasi per continuare...")
     menu()
    
